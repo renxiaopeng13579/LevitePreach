@@ -1,0 +1,87 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+/* 默认的需要取缔掉*/
+
+input,
+textarea {
+	outline: none;
+}
+a:focus,
+a:hover {} .nav>li>a:focus,
+.nav>li>a:hover {
+	background: none;
+}
+.nav-pills>li+li {
+	margin-left: 0px;
+}
+/* 默认的需要取缔掉 end*/
+
+.nav-me-other a {
+	font-size: 20px;
+}
+nav li>a {
+	border: 1px solid #dcdcdc;
+	text-align: center;
+}
+.head-form-seach {
+	border: 1px solid #DCDCDC;
+	font-size: 12px;
+	height: 40px;
+	margin-top: 10px;
+}
+.head-form-seach label {
+	margin-top: 8px;
+	margin-right: 15px;
+	line-height: 20px;
+	vertical-align: top;
+	float: left;
+}
+#keysearch {
+	margin-top: 8px;
+	border: none;
+	width: 500px;
+	height: 24px;
+	line-height: 24px;
+	border-left: 2px solid #DCDCDC;
+	padding-left: 10px;
+	float: left;
+}
+#head-form-submit {
+	border: none;
+	height: 38px;
+	padding: 0 20px;
+	float: left;
+}
+.breadcrumb>li+li:before {
+	content: ">";
+}
+@media (min-width: 1200px) {
+	.container {
+		width: 320px;
+	}
+}
+
+
+
+
+
+/*mp3*/
+.audio-other{margin-bottom: 0;}
+.mp3-tit{font-size: 16px;font-weight: normal;color: #0DABFA;margin-top: 5px;display: block;text-align: center;}
+
+.auido-box dt img{width: 100%;height: auto;}
+.auido-box dd .mp3-time{float: right;}
+.auido-box  .progress{width: 200px;float: left;height: 10px;margin-top: 5px; margin-bottom: 0;}
+.auido-box  .progress .progress-bar{height: 10px;}
+.audio-tool{font-size: 40px;height: 60px;line-height: 60px;text-align: center;}
+.audio-tool span{margin-right: 15px;}
+.audio-tool span:nth-last-child{margin-right: 0px;}
+
+.mp3-other{height: 60px;overflow: hidden;}
+#download-mp3{cursor: pointer;}
+.auido-list{border: 1px solid #CCC;margin-bottom:10px;}
+.auido-list ol{padding: 0;margin:0;border-bottom:none;}
+.auido-list li {border-bottom: 1px solid #CCC;cursor: pointer;font-size: 14px;height: 36px;line-height: 36px; list-style-type: none;padding-left: 5px;}
+.auido-list li.on{color: #F39292;}
+/*MP3 end*/
